@@ -1,32 +1,17 @@
 <?php
     include '_doctype.php';
+    include '_navbar.php';
 ?>
-
-  <body>
-    <!--                Navbar Mobile / Desktop                     -->
-    <nav class="sticky-top navbar navbar-expand-lg navbar-dark ">
-      <a class="navbar-brand" href="index.php"><img id="logo" src="./images/rocket.png" alt="logo" height="auto" width="100px"/></a>
-      <button class="navbar-toggler nav-mobile" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color:black; font-size: 1.5em;"></i></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" href="index.php">Accueil <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="catalogue.php">Nos Destinations</a>
-          <a class="nav-item nav-link" href="about.php">L'Équipage</a>
-          <a class="nav-item nav-link" href="contact.php">Contact</a>
-        </div>
-      </div>
-    </nav>
     <div class="banner-large">
         <h1 class="banner-title">Déjeunez sur <span id="changeText">Mars</span></h1>
         <span class="banner-baseline">L'immensité de l'espace à votre portée !</span>
         <div class="overlay"></div>
         <img src="images/home2.jpg" alt="mars expedition">
         <div class="container-btn container-btn-banner">
-            <button class="btn" id="btn-banner" type="submit" data-toggle="modal" data-target="#exampleModal">Réserver</button>
+        <button class="btn" id="btn-banner" type="submit" data-toggle="modal" data-target="#exampleModal">Réserver</button>
         </div>
     </div>
+
 
     <main class="container">
 
@@ -73,42 +58,11 @@
             <img src="./images/amazon.png" alt="amazon">
         </div>
     </main>
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Réservez votre voyage</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="recipient-name" class="col-form-label">Prénom et Nom</label>
-                            <input type="text" class="form-control" id="recipient-name">
-                        </div>
-                        <div class="form-group">
-                            <label for="recipient-number" class="col-form-label">Nombre de personnes</label>
-                            <input type="text" class="form-control" id="recipient-name">
-                        </div>
-                        <div class="form-group">
-                            <label for="message-text" class="col-form-label">Message:</label>
-                            <textarea class="form-control" id="message-text"></textarea>
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                    <button type="button" class="btn btn-primary">Réserver</button>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <script src="app.js"></script>
 
     <?php
     include '_footer.php';
+    include '_modal.php';
     ?>
 
