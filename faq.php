@@ -23,16 +23,16 @@
 <body>
     <!--                Navbar Mobile / Desktop                     -->
     <nav class="sticky-top navbar navbar-expand-lg navbar-dark ">
-        <a class="navbar-brand" href="index.html"><img id="logo" src="./images/rocket.png" alt="logo" height="auto" width="100px"/></a>
+        <a class="navbar-brand" href="index.php"><img id="logo" src="./images/rocket.png" alt="logo" height="auto" width="100px"/></a>
         <button class="navbar-toggler nav-mobile" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color:black; font-size: 1.5em;"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="catalogue.html">Nos Destinations</a>
-            <a class="nav-item nav-link" href="about.html">L'Équipage</a>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
+            <a class="nav-item nav-link" href="index.php">Accueil <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="catalogue.php">Nos Destinations</a>
+            <a class="nav-item nav-link" href="about.php">L'Équipage</a>
+            <a class="nav-item nav-link" href="contact.php">Contact</a>
           </div>
         </div>
       </nav>
@@ -139,57 +139,8 @@
     </div>
   </section>
 
-      <!--      Footer -        -->
-    <footer>
-        <section id="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
-                        <ul class="list-unstyled list-inline social text-center">
-                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
-                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-pinterest"></i></a></li>
-                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
-                        </ul>
-                    </div>
-                    </hr>
-                </div>
-
-                <div class="row text-center text-xs-center text-sm-left text-md-left">
-                    <div class="col-xs-1 col-sm-9">
-                        <h5>Quick links</h5>
-                        <ul class="list-unstyled quick-links">
-                            <li><a href="index.html"><i class="fa fa-angle-double-right"></i>Accueil</a></li>
-                            <li><a href="catalogue.html"><i class="fa fa-angle-double-right"></i>Nos Destinations</a></li>
-                            <li><a href="about.html"><i class="fa fa-angle-double-right"></i>L'équipage</a></li>
-                            <li><a href="contact.html"><i class="fa fa-angle-double-right"></i>Contact</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-xs-1 col-sm-3">
-                        <h5 class="quickLinks">Quick links</h5>
-                        <ul class="list-unstyled quick-links">
-                            <li><a href="faq.html"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-                            <li><a href="legal.html"><i class="fa fa-angle-double-right"></i>Mentions légales</a></li>
-                            <li><a href="sales.html"><i class="fa fa-angle-double-right"></i>Conditions de vente</a></li>
-                            <li><a href="confidentiality.html"><i class="fa fa-angle-double-right"></i>Confidentialité</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-                        <p><u><a href="index.html">Voyager International Corporation</a></u> est
-                            une marque de Voyages Intergalactiques SA, Lyon, France</p>
-                        <p class="h6">&copy Tous droits réservés.<a class="text-green ml-2"
-                                href="index.html" target="_blank">VI</a></p>
-                    </div>
-                    </hr>
-                </div>
-            </div>
-        </section>
-        <!-- ./Footer -->
-    </footer>
     <script src="faq.js"></script>
-</body>
-</html>
+
+<?php
+include '_footer.php';
+?>
