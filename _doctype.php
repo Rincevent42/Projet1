@@ -15,6 +15,6 @@
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
       <link rel="stylesheet" href="css/style.css">
-      <link rel="icon" href="favicon.ico">>
+      <link rel="icon" href="favicon.ico">
       <title>Partez dans les étoiles - Voyager</title>
   </head>
