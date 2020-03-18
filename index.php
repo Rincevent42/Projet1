@@ -1,6 +1,11 @@
 <?php
     include '_doctype.php';
     include '_navbar.php';
+$arrayPlanets = [
+    'mars' => ["mars.php", "./images/planetes/mars/mars.jpg", "Visiter Mars", "3M€/pers *"],
+    'coruscant' => ['coruscant.php','./images/planetes/coruscant/Coruscant.jpg','Visiter Coruscant','20M€/pers *'],
+    'arakis' => ['arrakis.php','./images/planetes/arrakis/arrakis_planete.jpg','Visiter Arrakis','25M€/pers *']
+];
 ?>
     <div class="banner-large">
         <h1 class="banner-title">Déjeunez sur <span id="changeText">Mars</span></h1>
@@ -21,33 +26,19 @@
         <div class="container">
             <h3>Nos Meilleurs voyages</h3>
             <div class="home-cards">
-                <a href="mars.php" class="">
-                  <div class="card bg-dark text-white hover-card">
-                    <img src="./images/planetes/mars/mars.jpg" class="card-img" alt="Mars">
-                    <div class="card-img-overlay">
-                      <h5 class="card-title-home">Visiter Mars</h5>
-                      <p class="card-text-home">3M€/pers *</p>
+                <?php
+                foreach ($arrayPlanets as $key => $value) {
+                echo '<a href="'.$value[0].'" class="">
+                    <div class="card bg-dark text-white hover-card">
+                        <img src="'.$value[1].'" class="card-img" alt="Arrakis">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title-home"> "'.$value[2].'"</h5>
+                            <p class="card-text-home">"'.$value[3].'"</p>
+                        </div>
                     </div>
-                  </div>
-                </a>
-                <a href="coruscant.php" class="">
-                  <div class="card bg-dark text-white hover-card">
-                      <img src="./images/planetes/coruscant/Coruscant.jpg" class="card-img" alt="Coruscant">
-                      <div class="card-img-overlay">
-                        <h5 class="card-title-home">Visiter Coruscant</h5>
-                        <p class="card-text-home">20M€/pers *</p>
-                      </div>
-                  </div>
-                </a>
-                <a href="arrakis.php" class="">
-                  <div class="card bg-dark text-white hover-card">
-                      <img src="./images/planetes/arrakis/arrakis_planete.jpg" class="card-img" alt="Arrakis">
-                      <div class="card-img-overlay">
-                        <h5 class="card-title-home">Visiter Arrakis</h5>
-                        <p class="card-text-home">25M€/pers *</p>
-                      </div>
-                  </div>
-              </a>
+                </a>';
+                }
+                ?>
             </div>
         </div>
 

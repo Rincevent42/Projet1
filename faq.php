@@ -20,9 +20,11 @@
         <link rel="icon" href="favicon.ico">
         <title>Foire aux Questions</title>
     </head>
+
     <?php
     include '_navbar.php';
     ?>
+
       <!--      FAQ        -->
   <section class="hero is-primary has-background-pink">
     <div class="hero-body">
