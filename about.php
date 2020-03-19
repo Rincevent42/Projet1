@@ -16,13 +16,12 @@
         </div>
     </div>
 
-    <!--      Contenu       -->
+    <!--      Content       -->
     <main class="container">
 
         <h2>Découvrez l'immensité de l'espace avec :</h2>
         <div class="about-cards">
             <div class="card equipe">
-              <!-- <div class="equipe"></div> -->
                 <img src="./images/photo-equip/Amina.jpg" class="card-img-top" alt="photo-amina">
                 <div class="card-body">
                     <h5 class="card-title">Amina</h5>

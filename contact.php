@@ -14,10 +14,10 @@ include '_navbar.php';
         </div>
     </div>
     <main class="container">
-        <!--      Présentation agence -        -->
+    <!--      Company introduction -        -->
     <h2 class="title-home">Nous sommes Voyager</h2>
     <p class="text-home">Conctrétisez vos rêves sur Voyager ! Notre agence vous propose de nombreux séjours sur de nombreuses destinations à travers la galaxie. Rendez-vous dans l'un de nos bureaux de vente, ou contactez-nous dès maintenant via le formulaire ci-dessous.</p>
-    <!--      Formulaire de contact -        -->
+    <!--      Contact form -        -->
         <h2 class="title">Nous contacter</h2>
         <form class="form">
             <div class="form-row row1">
@@ -32,7 +32,7 @@ include '_navbar.php';
             </div>
             <button class="btn" type="submit">Envoyer</button>
         </form>
-        <!--      Adresse agence-        -->
+        <!--      Company address -        -->
         <div class="contactAddress">
             <address>
                 <img id="logo" src="./images/rocket.png" alt="logo" height="auto" width="100px" />

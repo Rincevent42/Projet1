@@ -30,9 +30,9 @@
                     <h5 class="quickLinks">Quick links</h5>
                     <ul class="list-unstyled quick-links">
                         <li><a href="faq.php"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-                        <li><a href="legal.html"><i class="fa fa-angle-double-right"></i>Mentions légales</a></li>
-                        <li><a href="sales.html"><i class="fa fa-angle-double-right"></i>Conditions de vente</a></li>
-                        <li><a href="confidentiality.html"><i class="fa fa-angle-double-right"></i>Confidentialité</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right"></i>Mentions légales</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right"></i>Conditions de vente</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right"></i>Confidentialité</a></li>
                     </ul>
                 </div>
             </div>
